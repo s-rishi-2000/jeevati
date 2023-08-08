@@ -1,0 +1,59 @@
+
+.nav-item{
+   padding: 11px;
+   margin: 11px;
+}
+.carousel-caption{
+  padding-bottom: 250px;
+  font-family:poppins;
+}
+.carousel-caption h2{
+  font-size: 50px;
+  font-weight: bold;
+}
+.carousel-caption h2 span{
+  color: #edbb00;
+}
+/* .carousel-indicators{
+  background-color: #edbb00;
+  border-color: #edbb00;
+
+} */
+.bg-light{
+  background-color: transparent !important;
+}
+.carousel-item{
+  min-height: 200px;
+  height: 100vh;     
+} 
+.nanbar-nav a{
+  font-size:20px;
+}                
+.nanbar-light .navbar-brand{
+  color: #fff;
+}       
+.nanbar-light .nanbar-brand:focus,
+.nanbar-light .nanbar-brand:hover{
+  color: #fff;
+}
+.nanbar-light .nanbar-nav .nav-link{
+  color: #fff;
+}
+
+.nanbar-light .nanbar-nav .nav-link:focus,
+.nanbar-light .nanbar-nav .nav-link:hover{
+  color: #fff;
+}
+.navbar-toggler{
+  padding: 1px 5px;
+  font-size: 19px;
+  line-height: 0.3;
+  background: #fff;
+}
+@media only screen and (max-width :767px) {
+  .navbar-nav{
+    text-align: center;
+    background:rgba(0,0,0,0);
+  }
+  
+}
